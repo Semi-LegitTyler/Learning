@@ -18,9 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTap(_ sender: UIButton) {
         
-        print(text1)
-        print(text1.text!)
-        print(text2.text!)
+        firstTitle.text = "\(Int(text1.text!)! + Int(text2.text!)!)"
     }
     
     override func viewDidLoad() {
