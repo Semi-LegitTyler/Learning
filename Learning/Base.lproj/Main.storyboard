@@ -38,12 +38,34 @@
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0F9-TB-I5e"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="soi-wa-DPB">
+                                <rect key="frame" x="137.5" y="401.5" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="3uf-lK-Zd3"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BtC-MF-Foy">
+                                <rect key="frame" x="137.5" y="451.5" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JDi-lZ-b5o"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t8s-uN-aFl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4KQ-hm-CbB"/>
+                            <constraint firstItem="BtC-MF-Foy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GhM-eL-TMO"/>
+                            <constraint firstItem="BtC-MF-Foy" firstAttribute="top" secondItem="soi-wa-DPB" secondAttribute="bottom" constant="20" id="JOy-9R-gI8"/>
                             <constraint firstItem="vf8-Y1-S3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YUm-NG-bl2"/>
+                            <constraint firstItem="soi-wa-DPB" firstAttribute="top" secondItem="t8s-uN-aFl" secondAttribute="bottom" constant="10" id="a7y-ij-LRd"/>
                             <constraint firstItem="vf8-Y1-S3j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="295" id="fha-1w-9kj"/>
+                            <constraint firstItem="soi-wa-DPB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kPP-3B-BWi"/>
                             <constraint firstItem="t8s-uN-aFl" firstAttribute="top" secondItem="vf8-Y1-S3j" secondAttribute="bottom" constant="20" id="ktf-CA-RuX"/>
                         </constraints>
                     </view>
