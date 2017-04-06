@@ -71,6 +71,8 @@
                     </view>
                     <connections>
                         <outlet property="firstTitle" destination="vf8-Y1-S3j" id="PoG-qk-8Vn"/>
+                        <outlet property="text1" destination="soi-wa-DPB" id="X3D-J5-mdm"/>
+                        <outlet property="text2" destination="BtC-MF-Foy" id="g2s-nJ-3v4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
